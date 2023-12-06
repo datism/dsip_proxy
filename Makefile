@@ -11,14 +11,4 @@ PROJECT_VERSION = 0.1.0
 # DEPS = nkpacket
 # dep_nkpacket = git http://github.com/poroh/nkpacket.git master
 
-# DEPS = lager
-# dep_lager = git https://github.com/erlang-lager/lager.git master
-
 include erlang.mk
-
-# # Compile flags
-# ERLC_COMPILE_OPTS= +'{parse_transform, lager_transform}'
-
-# # Append these settings
-# ERLC_OPTS += $(ERLC_COMPILE_OPTS)
-# TEST_ERLC_OPTS += $(ERLC_COMPILE_OPTS)
